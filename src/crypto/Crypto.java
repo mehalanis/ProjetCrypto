@@ -23,7 +23,8 @@ public class Crypto extends Application {
         Parent root = load.getRoot();
 
         Scene scene = new Scene(root);
-
+        
+        stage.setTitle("Projet Crypto");
         stage.setScene(scene);
         stage.show();
     }
